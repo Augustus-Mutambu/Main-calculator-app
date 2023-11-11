@@ -1,0 +1,92 @@
+.body {
+  max-width: 60px;
+  background-color: rgb(73, 73, 116);
+}
+
+.heading {
+  color: rgb(12, 11, 11)55, 255, 255);
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.output {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgb(30, 30, 35);
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+  height: 80px;
+}
+#delete{
+   background-color: rgb(52, 52, 96);
+   color: white;
+}
+.functions {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: rgb(22, 19, 40);
+  padding: 20px;
+  border-radius: 10px;
+}
+.grid-container {
+   background-color: rgb(22, 19, 40);
+   border-radius: 10px;
+   margin-right: 900px;
+  display: grid;
+  grid-template-areas:
+    "functions"
+    "btn1 btn2";
+}
+.numbers {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: rgb(19, 19, 37);
+  font-weight: bolder;
+  font-size: 30px;
+}
+.btn1 {
+  background-color: rgb(52, 52, 96);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.btn2 {
+  background-color: rgb(201, 50, 50);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.final {
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(19, 19, 37);
+  font-weight: bolder;
+  font-size: 30px;
+}
